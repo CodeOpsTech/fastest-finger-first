@@ -1,7 +1,5 @@
 ## Fastest Finger First 
 
-[![pipeline status](https://gitlab.com/ramitsurana/fastest-finger-first/badges/master/pipeline.svg)](https://gitlab.com/ramitsurana/fastest-finger-first/commits/master)
-
 Quick quiz based on Serverless
 
 ## Features
