@@ -1,0 +1,39 @@
+<div class="qblock">
+    <div class="account-wall">
+        <div id="countdown" class="timer-area" >
+                <h3><div id="seconds" class="seconds-area" style="float:right; color: red;">00</div></h3>
+                <h3><div style="float:right"><b>:</b></div></h3>
+                <h3><div id="minutes" class="minutes-area" style="float:right; color: red;">00</div></h3>
+        </div>
+        <div id="aftercount" class="timeout-area" style="display:none" style="float:right">Time Out</div>
+    </div>
+    <form class="qform">
+        <h5 class="qform__questiontext"></h5>
+        <div class="qform__options">
+            <h5>
+                <label class="qform__optlabel">
+                    <input class="qform__radio" type="radio" value="" name="optionsgroup">
+                    <span class="qform__optiontext"></span>
+                </label>
+                <label class="qform__optlabel">
+                    <input class="qform__radio" type="radio" value="" name="optionsgroup">
+                    <span class="qform__optiontext"></span>
+                </label>
+                <label class="qform__optlabel">
+                    <input class="qform__radio" type="radio" value="" name="optionsgroup">
+                    <span class="qform__optiontext"></span>
+                </label>
+                <label class="qform__optlabel">
+                    <input class="qform__radio" type="radio" value="" name="optionsgroup">
+                    <span class="qform__optiontext"></span>
+                </label>
+            </h5>
+        </div>
+        <br/>
+        
+        <input type="button" class="btn btn-danger qform__exitbtn" value="Exit" onclick="exitQuizClick()"/>
+        <input type="button" class="btn btn-primary btn-md qform__submitbtn" value="Submit" onclick="submitAnswerClick()"/>
+        <br/>
+        <br/>
+    </form>
+</div>

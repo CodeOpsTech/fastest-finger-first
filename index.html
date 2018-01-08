@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fastest Finger First</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <!--BEM naming convention is adhered to here -->
+        <br>
+        <div class="container formblock">
+            <div class="row">
+                <div class="col">
+                         <h1 class="text-center login-title qtitle">Fastest Finger First</h1>
+                         <img id="inserverless-img" class="profile-img" src="images/AIlogo.png" alt="Serverless" width="100%" style="margin-top: 10%;">
+                         <!-- <img class="quiz-time" src="images/quiz-time.png" alt="Quiz Time"> -->
+                        <div class="form-area" style="margin-top: -5%;">
+                             <form class="form-signin">
+                                <input type="text" id="username" class="form-control" placeholder="Name" required autofocus>
+                                <input type="tel" id="mobilenum" min="0" maxlength="10" name="txt_name" placeholder="Mobile Number*" onkeypress="return isNumberKey(event)" class="form-control" required>
+                                <br/><br/>
+                                <div class="col-md-12 text-center">
+                                    <a class="btn btn-primary btn-md" onclick="register()">Register & Start</a>
+                                </div>
+                            </form>
+                        </div>
+                        <label class="error-area"></label>
+                        <br/>
+                </div>
+            </div>
+        </div>    
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
