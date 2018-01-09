@@ -77,7 +77,7 @@ It consists of the following steps:
 2. Put an empty json file in the S3 bucket.
 3. Make sure to make the file public by changing the permissions of read and write for the file.
 
-**Note:** Remember to enable CORS configuration for the S3 bucket. Refer to this <a href "http://docs.aws.amazon.com/AmazonS3/latest/user-guide/add-cors-configuration.html">post</a> for the instructions. 
+**Note:** Remember to enable CORS configuration for the S3 bucket. Refer to this <a href =  "http://docs.aws.amazon.com/AmazonS3/latest/user-guide/add-cors-configuration.html">post</a> for the instructions. 
 
 ## License
 
